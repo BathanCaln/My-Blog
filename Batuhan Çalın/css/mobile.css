@@ -1,0 +1,14 @@
+#navbar {
+    overflow: hidden;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width:max-content;
+}
+#training .item {
+    font-size: 13px;
+}
+#training .item .items {
+    width: 100%;
+}.language .languages {
+    flex-direction: column;
+}

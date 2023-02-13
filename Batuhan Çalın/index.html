@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batuhan Çalın | My Blog</title>
+    <meta name="keywords" content="Blog,Cv,Computer Engineers,Web Developer">
+    <meta name="description" content="Batuhan Çalın | My Blog">
+
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <!--Fonts Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--TABLET-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!--MOBİLE-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+
+<body>
+    <header class="bg-light-green">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="texts-center heading-big">
+                    Batuhan Çalın
+                </h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#study">Öğrenimim</a></li>
+                    <li><a href="#languages">Diller</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="images/mypic.jpg" alt="Batuhan Çalın">
+
+        <div class="name texts-center">
+            <h2 class=".heading-big">
+                Batuhan Çalın
+            </h2>
+            <p>
+                | Computer Engineering Student |
+            </p>
+            <p>
+                | Lisans 1.Sınıf |
+            </p>
+        </div>
+
+        <a class="btn btn-primary btn-primary:hover" href="#languages">Dillere Git</a>
+    </section>
+
+    <section id="study" class="bg-light-green">
+        <h3 class="heading-mid texts-center">
+            Öğrenimim
+        </h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-book"></i>
+                <h3>
+                    Lise
+                </h3>
+                <p>Abdulkadir Aksu Anadolu Lisesi İstanbul-Esenyurt</p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-book"></i>
+                <h3>
+                    Üniversite
+                </h3>
+                <p>Trakya Üniversitesi Edirne-Merkez</p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-book"></i>
+                <h3>
+                    Kurslarım
+                </h3>
+                <p>
+                    English Time (İngilizce)
+                </p>
+            </article>
+        </div>
+
+    </section>
+
+    <section id="languages">
+        <h3 class="texts-center heading-mid bg-light-green ">Diller</h3>
+
+        <div class="container">
+            <div class="languages">
+
+                <!-- Language 1 -->
+                <div class="language">
+                    <div class="language-image">
+                        <img src="images/html.png" alt="Html" class="img-custom">
+                    </div>
+                    <div class="language-info">
+                        <div class="title">
+                            HTML
+                        </div>
+                        <div class="description">Başlangıç Seviyesi</div>
+                        <div class="learn">Eğitim | Udemy</div>
+                        
+                    </div>
+
+                    <!-- Language 2 -->
+                    <div class="language">
+                        <div class="language-image">
+                            <img src="images/CSS.jpg" alt="Css" class="img-custom">
+                        </div>
+                        <div class="language-info">
+                            <div class="title">
+                                CSS
+                            </div>
+                            <div class="description">Başlangıç Seviyesi</div>
+                            <div class="learn">Eğitim | Udemy</div>
+                            
+                        </div>
+
+                        <!-- Language 3 -->
+                        <div class="language">
+                            <div class="language-image">
+                                <img src="images/JavaScript.jpg" alt="JavaScript" class="img-custom">
+                            </div>
+                            <div class="language-info">
+                                <div class="title">
+                                    JavaScript
+                                </div>
+                                <div class="description">Başlangıç Seviyesi</div>
+                                <div class="learn">Eğitim | Udemy</div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer id="contact" class="bg-lightdark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="texts-center heading-mid">Bana Ulaşın</h4>
+                
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    
+                    <input 
+                    type="text" 
+                    class="form-control"    
+                    name="name" 
+                    id="name" 
+                    placeholder="İsim"
+                    >
+                </div>
+
+                <div class="form-group">
+                        <label for="email">Email</label>
+                        
+                        <input 
+                        type="text" 
+                        class="form-control"    
+                        name="email" 
+                        id="email" 
+                        placeholder="E-mail"
+                        >
+                </div>
+
+                <div class="form-group">
+                        <label for="email">Mesaj</label>
+                        <textarea 
+                        name="message" 
+                        id="message"  
+                        class="form-control" 
+                        rows="5"
+                        placeholder="Mesajınız...">
+                    </textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn btn-primary:hover">Gönder</button>
+                
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+    
+
+
+</body>
+
+</html>

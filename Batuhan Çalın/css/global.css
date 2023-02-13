@@ -1,0 +1,67 @@
+/* All of them Class in this Css */
+
+/* Texts */
+.texts-center {
+    text-align: center;
+}
+.heading-big {
+    font-size: 1.87rem;
+}
+.heading-mid {
+    font-size: 1.49rem;
+}
+
+/* Colors */
+.bg-light-green {
+    background:chartreuse;
+}
+.bg-dark-blue {
+    background:rgb(17, 24, 39);
+}
+.bg-lightdark-blue {
+    background:rgb(13, 23, 33);
+}
+.bg-slate-grey {
+    background:darkslategrey;
+}
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.7rem;
+    border-radius: 20px;
+    letter-spacing: 0.7px;
+}
+.btn-primary {
+    background: darkslategrey
+}
+.btn-primary:hover {
+    background: chartreuse;
+    color: black;
+    border-radius: 20px;
+}
+/* İMAGES */
+.img-custom {
+    width: 120px;
+    height: 100px;
+}
+/* Forms */
+.form-group {
+    padding: 0.25rem 0 ;
+}
+.form-group label {
+    display: block;
+}
+.form-control {
+    width: 100%;
+    padding: 0.35rem;
+    font-size: 0.7rem;
+    resize: none;
+    border: 5px solid darkslategrey;
+    border-radius: 15px;
+
+}
